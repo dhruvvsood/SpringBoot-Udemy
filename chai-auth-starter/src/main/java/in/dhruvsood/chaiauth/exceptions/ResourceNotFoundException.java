@@ -1,0 +1,7 @@
+package in.dhruvsood.chaiauth.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
